@@ -3,7 +3,10 @@ class Owner
   
   @@all = []
   
-  def initialize()
+  def initialize(name)
+    @name = name
+    @speices = "humnan"
+    @@all = all
   
   
   
