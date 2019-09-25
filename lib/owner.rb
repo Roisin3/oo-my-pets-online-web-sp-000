@@ -25,6 +25,9 @@ class Owner
     @@all.clear
   end
   
+  def cats
+    Cat.
+  
   def buy_cat(name)
     Cat.new(name, self)
   end
