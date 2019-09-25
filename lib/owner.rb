@@ -4,6 +4,8 @@ class Owner
   
   @@owners = []
   
+  def initialize()
+  
   
   
 end
