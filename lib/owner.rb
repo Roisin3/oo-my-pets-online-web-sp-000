@@ -9,7 +9,12 @@ class Owner
     @@all << self
   end
   
-  def 
+  def self.all
+    @@all
+  end
+  
+  def buy_cat(name)
+    Cat.new(name)
   
   
   
