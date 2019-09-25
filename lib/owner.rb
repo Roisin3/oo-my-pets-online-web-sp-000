@@ -1,7 +1,7 @@
 class Owner
   attr_accessor :name, :speices 
   
-  @@owners = []
+  @@all = []
   
   def initialize()
   
