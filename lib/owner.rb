@@ -26,7 +26,7 @@ class Owner
   end
   
   def cats
-    Cat.
+    Cat.all.select {|cat| cat.new
   
   def buy_cat(name)
     Cat.new(name, self)
