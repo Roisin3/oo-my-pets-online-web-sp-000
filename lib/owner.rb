@@ -6,7 +6,10 @@ class Owner
   def initialize(name)
     @name = name
     @speices = "humnan"
-    @@all = all
+    @@all << self
+  end
+  
+  def 
   
   
   
