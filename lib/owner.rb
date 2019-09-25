@@ -1,13 +1,17 @@
 class Owner
-  attr_accessor :name, :speices 
+  attr_accessor :name, :species 
   
   @@all = []
   
   def initialize(name)
     @name = name
-    @speices = "humnan"
+    @species = "humnan"
     @@all << self
   end
+  
+  def say_species
+  end
+    
   
   def self.all
     @@all
